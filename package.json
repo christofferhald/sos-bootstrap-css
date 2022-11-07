@@ -1,0 +1,30 @@
+{
+  "name": "sos-bootstrap-css",
+  "version": "1.0.0",
+  "description": "Bootstrap framework customized for SOS Intl.",
+  "main": "./src/index.js",
+  "scripts": {
+    "switch": "npm run updates-patch && npm install && npm rebuild node-sass && npm audit fix",
+    "build": "webpack --mode production",
+    "b": "npm run build",
+    "updates-check": "ncu",
+    "updates-major": "ncu -u && npm install",
+    "updates-minor": "ncu -u --target minor && npm install",
+    "updates-patch": "ncu -u --target patch && npm install"
+  },
+  "author": "Christoffer Helgelin Hald",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.0",
+    "css-loader": "^6.7.1",
+    "mini-css-extract-plugin": "^2.6.1",
+    "sass": "^1.56.0",
+    "sass-loader": "^13.1.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
