@@ -1,6 +1,6 @@
 {
   "name": "sos-bootstrap-css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bootstrap framework customized for SOS Intl.",
   "main": "./src/index.js",
   "scripts": {
