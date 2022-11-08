@@ -4,3 +4,7 @@
 body {
 	background: blue;
 }
+
+.fededorit {
+	@extend .btn, .btn-primary;
+}
