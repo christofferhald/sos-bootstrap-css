@@ -1,6 +1,6 @@
 {
-  "name": "sos-bootstrap-css",
-  "version": "1.0.1",
+  "name": "@christofferhald/sos-bootstrap-css",
+  "version": "1.0.0",
   "description": "Bootstrap framework customized for SOS Intl.",
   "main": "./src/index.js",
   "scripts": {
@@ -26,5 +26,13 @@
     "sass": "^1.56.0",
     "sass-loader": "^13.1.0",
     "webpack-cli": "^4.10.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christofferhald/sos-bootstrap-css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/christofferhald/sos-bootstrap-css/issues"
+  },
+  "homepage": "https://github.com/christofferhald/sos-bootstrap-css#readme"
 }
